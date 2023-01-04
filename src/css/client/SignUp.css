@@ -1,0 +1,19 @@
+.AuthForm {
+    padding: 40px 60px 10px;
+}
+
+.AuthForm .header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.AuthForm .header h1 {
+    color: rgb(0, 158, 127);
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.AuthForm .header p {
+    font-size: 14px;
+    color: rgb(119, 121, 140);
+}

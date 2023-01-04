@@ -1,0 +1,13 @@
+.admin-page {
+    background-color: rgb(247, 247, 247);
+    width: calc(100% - 270px);
+    float: right;
+    padding: 155px 40px 0 40px;
+}
+
+.admin-col {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.03) 0px 21px 36px;
+    /* padding-bottom: 20px; */
+    height: 100%;
+}

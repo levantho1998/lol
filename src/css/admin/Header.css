@@ -1,0 +1,35 @@
+.NavAdmin {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 2px;
+    padding: 30px 60px;
+    z-index: 2;
+}
+
+.NavAdmin .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NavAdmin .logo img {
+    width: 160px;
+}
+
+.NavAdmin .add-products-btn {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 158, 127);
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

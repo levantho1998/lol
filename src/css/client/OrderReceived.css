@@ -1,0 +1,95 @@
+.order-received {
+    background-color: rgb(247, 247, 247);
+    padding: 70px 25px 100px 25px;
+    display: flex;
+}
+
+.order-received .info-header {
+    font-weight: 700;
+    color: rgb(66, 69, 97);
+    line-height: 1.2;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.user-wrapper {
+    background-color: #fff;
+    width: 870px;
+    margin: 0 auto;
+    padding: 50px 30px;
+    box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+.user-wrapper .btn-back-to-home {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.user-wrapper .btn-back-to-home button {
+    background-color: transparent;
+}
+
+.user-wrapper .btn-back-to-home button a {
+    color: rgb(119, 121, 140);
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 8px 10px;
+    transition: all 0.3s;
+}
+
+.user-wrapper .btn-back-to-home button:hover {
+    background-color: rgb(0, 158, 127);
+    border-color: rgb(0, 158, 127);
+}
+
+.user-wrapper .btn-back-to-home button:hover a {
+    color: #fff;
+}
+
+/* received  */
+
+.received .bt-header {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(13, 17, 54);
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.received p {
+    color: rgb(119, 121, 140);
+}
+
+.received .info {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* detail  */
+
+.detail .detail-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.detail .detail-info .info-header {
+    flex-basis: 280px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.detail .detail-info p {
+    padding-left: 100px;
+    margin: 0;
+    color: rgb(119, 121, 140);
+}
+
+.order-received .user-wrapper .detail .detail-info .info-header:after {
+    content: ":";
+    position: absolute;
+    line-height: 1;
+    right: 0;
+    /* top: 0; */
+}

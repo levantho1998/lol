@@ -1,0 +1,3 @@
+{"_id":{"$oid":"5f52079a7b43f282ecb4f5d5"},"email":"doanhtuan@gmail.com","password":"0a49dd9af0104d505403a2aba1f1293a","name":"Anh Tuan","address":"số 2 Minh Khai,Hai Bà Trưng,Hà Nội","phone":"0965432033","__v":0}
+{"_id":{"$oid":"5f570590bf6f036c3400a868"},"email":"dochikien@gmail.com","password":"5d2297b2f56654636090aaad75d0578f","name":"Do Chi Kien","address":"số 23 đường H28","phone":"0392226686","__v":0}
+{"_id":{"$oid":"5f58f3dc8e33fc88686dd186"},"name":"Viet Nhuan","email":"dovietnhuan@gmail.com","password":"d87790aeb770f863d006be88c56d1aad","address":"số 2 đường H28 Thạch Thất Hà Nội","phone":"0897799333","__v":0}

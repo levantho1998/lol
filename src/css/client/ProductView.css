@@ -1,0 +1,113 @@
+.ProductView {
+    background-color: #fff;
+    margin-top: 3rem;
+}
+
+.ProductView .img {
+    display: flex;
+}
+
+.ProductView .img-wrapper {
+    max-width: 450px;
+    max-height: 450px;
+    margin: 0 auto;
+}
+
+.ProductView .img-wrapper img {
+    width: 100%;
+    height: 100%;
+}
+
+.ProductView .back-btn {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 158, 127);
+    font-size: 14px;
+    font-weight: 400px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin-bottom: 5px;
+    color: rgb(0, 158, 127);
+}
+
+.ProductView .back-btn:hover {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.ProductView .title h1 {
+    font-size: 21px;
+    font-weight: 700;
+    color: rgb(13, 17, 54);
+}
+
+.ProductView .title p {
+    font-size: 14px;
+    color: rgb(119, 121, 140);
+}
+
+.ProductView .description p {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(66, 69, 97);
+    line-height: 1.8;
+    height: 115px;
+    overflow: hidden;
+    margin: 0;
+}
+
+.ProductView .description .read-more {
+    color: rgb(0, 158, 127);
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.ProductView .description .des-show {
+    height: 100%;
+    overflow: unset !important;
+}
+
+.ProductView .price {
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(0, 158, 127);
+    margin-bottom: 20px;
+}
+/* 
+.cart-btn .btn {
+    background-color: rgb(0, 158, 127);
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 40px;
+}
+
+.cart-btn .btn svg {
+    margin-right: 10px;
+}
+
+.cart-btn .btn p {
+    color: #fff;
+    margin: 0;
+} */
+
+.ProductView .category-product .btn {
+    margin-top: 30px;
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(13, 17, 54);
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+}
+
+.ProductView .category-product .btn:hover {
+    color: rgb(0, 158, 127);
+    border-color: rgb(0, 158, 127);
+}

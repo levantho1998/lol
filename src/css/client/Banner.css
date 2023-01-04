@@ -1,0 +1,100 @@
+.Banner {
+    background-image: url(https://res.cloudinary.com/dofqucuyy/image/upload/v1585755127/Books/background_etmzc6.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+}
+
+.Banner .title h1 {
+    font-size: 55px;
+    color: rgb(13, 17, 54);
+    font-weight: 700;
+    text-align: center;
+    user-select: none;
+}
+
+.Banner .title p {
+    font-size: 19px;
+    font-weight: 400;
+    color: rgb(119, 121, 140);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    user-select: none;
+}
+
+.Banner .search-bar {
+    display: flex;
+    align-items: center;
+    width: 700px;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    border-radius: 3px;
+    padding: 0 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 21px 36px;
+}
+
+.search-bar .label {
+    font-size: 13px;
+    color: rgb(0, 158, 127);
+    line-height: 38px;
+    font-weight: 700;
+    background-color: rgb(247, 247, 247);
+    margin: 0 5px;
+    padding: 0 15px;
+    border-radius: 6px;
+    align-items: center;
+    display: flex;
+}
+
+.search-bar form {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(119, 121, 140);
+    padding: 20px 0;
+}
+
+.search-bar input {
+    flex-grow: 1;
+    border: none;
+}
+
+.search-bar input:focus {
+    outline: none;
+}
+
+.search-bar button {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(0, 158, 127);
+    padding: 0 30px;
+    border: none;
+    height: 55px;
+}
+
+/* .search-bar button:visited {
+    background-color: rgb(0, 158, 127);
+    color: #fff;
+    border-color: black;
+} */
+
+/* .search-bar button:hover {
+    background-color: rgb(0, 158, 127);
+    color: #fff;
+} */
+/* 
+.search-bar button:active {
+    background-color: rgb(0, 158, 127);
+    color: #fff;
+} */

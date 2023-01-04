@@ -1,0 +1,257 @@
+.orders {
+    height: 100vh;
+    background-color: #fff;
+}
+
+.user-container {
+    padding: 50px 25px 100px 25px;
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    margin-top: 80px;
+}
+
+.orders .order-container {
+    display: flex;
+    flex-grow: 1;
+}
+
+.orders .bt-header {
+    padding: 0 30px;
+}
+
+/* my-order  */
+.orders .my-order {
+    background-color: #fff;
+    padding: 50px 0;
+    box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+.orders .my-order {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 400px;
+    max-height: 530px;
+}
+
+.orders .order-container .order {
+    background-color: rgb(247, 247, 247);
+    border-radius: 5px;
+    cursor: pointer;
+    width: 330px;
+    margin: 0 30px 20px 30px;
+    border: 2px solid transparent;
+}
+
+.orders .order-container .order .header {
+    font-weight: 600;
+    color: rgb(13, 17, 54);
+    padding: 15px 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.orders .order-container .order .body {
+    padding: 15px 20px;
+}
+
+.orders .order-container .order .body .order-info {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(13, 17, 54);
+}
+
+.my-order .order-active {
+    border: 2px solid rgb(0, 158, 127) !important;
+}
+
+/* order-detail  */
+
+.orders .order-container .order-detail {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 50px 0;
+    box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08);
+    max-height: 530px;
+}
+
+.orders .order-container .order-detail .details {
+    display: flex;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    padding: 0 30px;
+}
+
+.orders .order-container .order-detail .details .address {
+    flex-grow: 1;
+    border-right: 1px solid #eee;
+    padding: 15px 0;
+}
+
+.orders .order-container .order-detail .details .address .title {
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(13, 17, 54);
+    margin-bottom: 10px;
+}
+
+.orders .order-container .order-detail .details .address span {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(119, 121, 140);
+}
+
+.orders .order-container .order-detail .details .info {
+    padding-left: 30px;
+    padding: 15px 20px;
+    width: 25%;
+}
+
+.orders .order-container .order-detail .details .info div {
+    display: flex;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(119, 121, 140);
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.orders .order-container .order-detail .details .info div:last-child {
+    font-weight: 600;
+    color: rgb(13, 17, 54);
+}
+
+/* progess  */
+
+.orders .order-container .order-detail .progress-wrapper {
+    padding: 50px 25px 80px 25px;
+}
+
+.orders .order-container .order-detail .progress-wrapper .progress {
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: 0.75rem;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+}
+
+.orders .order-container .order-detail .progress-wrapper .progress {
+    height: 5px;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    overflow: unset;
+}
+.orders .order-container .order-detail .progress-wrapper .progress .progress-bar {
+    background-color: rgb(0, 158, 127);
+}
+
+.orders .des {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -17px;
+}
+
+.orders .des .check-btn {
+    background-color: rgb(0, 158, 127);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.orders .des .text {
+    font-weight: 500;
+    color: rgb(13, 17, 54);
+    text-align: center;
+    font-size: 12px;
+}
+.orders .des:first-child {
+    left: -35px;
+}
+
+.orders .des:nth-last-child(2) {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.orders .des:last-child {
+    right: -35px;
+}
+
+.orders .des .not-completed {
+    background-color: #fff;
+    color: rgb(0, 158, 127);
+    border: 1px dashed rgb(0, 158, 127);
+}
+
+/* items  */
+
+.orders .items {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.orders .table thead {
+    background-color: rgb(247, 247, 247);
+}
+
+.orders .table thead th {
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(13, 17, 54);
+}
+
+.orders .table th .img-wrapper {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.orders .table th .img-wrapper img {
+    width: 100%;
+    height: 100%;
+}
+
+.orders .table td .title {
+    font-weight: 700;
+    color: rgb(13, 17, 54);
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.orders .table td {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(13, 17, 54);
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.orders .table td .price {
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(0, 158, 127);
+}
+
+.orders .detail-active {
+    max-height: 720px !important;
+    padding: 0 !important;
+}

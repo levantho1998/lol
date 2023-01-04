@@ -1,0 +1,31 @@
+.user-side-bar {
+    background-color: #fff;
+    box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08);
+    width: 300px;
+    height: auto;
+    padding: 50px 0;
+}
+
+.user-side-bar .nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.user-side-bar .nav .nav-item {
+    padding: 15px 50px;
+    border-left: 5px solid transparent;
+}
+
+.user-side-bar .nav .nav-item a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(13, 17, 54);
+    transition: color 0.3s;
+}
+
+.user-side-bar .nav .nav-item a:hover {
+    color: rgb(0, 158, 127);
+}
